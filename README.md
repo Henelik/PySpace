@@ -7,3 +7,12 @@ Overview: https://youtu.be/svLzmFuSBhk
 Examples: https://youtu.be/N8WWodGk9-g
 
 ODS Demo: https://youtu.be/yJyp7zEGKaU
+
+## Dependencies
+Python 3.6
+
+Numpy
+
+Pygame
+
+PyOpenGL 
