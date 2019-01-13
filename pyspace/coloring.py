@@ -1,5 +1,5 @@
 import numpy as np
-from util import *
+from pyspace.util import *
 
 class OrbitInitZero:
 	def __init__(self):
@@ -21,7 +21,7 @@ class OrbitInitNegInf:
 
 	def orbit(self):
 		return '\tvec3 orbit = vec3(-1e20);\n'
-		
+
 class OrbitMin:
 	def __init__(self, scale=(1,1,1), origin=(0,0,0)):
 		self.scale = set_global_vec3(scale)
